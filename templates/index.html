@@ -1,0 +1,11 @@
+
+<form action="/submit" method="post">
+    <input type="text" id="inputText" name="inputText"><br><br>
+    <input type="submit" value="Submit">
+</form>
+
+<ul>
+  {% for cmd in cmds %}
+    <li>{{cmd}}</li>
+  {% endfor %}
+</ul>
